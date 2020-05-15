@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 350px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.wrapper input{
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    outline: none;
+}
+.wrapper div{
+    margin-bottom: 10px;
+
+}
+.wrapper div input{
+    margin-bottom: 5px;
+}
+.wrapper div p {
+    font-size: 12px;
+    font-weight: bold;
+    display: none;
+    
+}
+#Error input{
+    border-color:red;
+}
+#Error p{
+    display: block;
+}
+#NoError input{
+    border-color: green;
+}
